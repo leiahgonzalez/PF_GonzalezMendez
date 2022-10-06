@@ -1,0 +1,40 @@
+@media only screen and (max-width: 600px){
+    .section1contacto{
+        div h1{
+            font-size: 60px;
+            width: 400px;
+            left: 10%;
+        }
+
+        div h2{
+            font-size: 30px;
+            top: 40%;
+        }
+    }
+    .section2contacto .container{
+        padding: 0%;
+        
+        .formulario{
+            height: 770px;
+            left: 3%;
+            top: 55%;
+            width: fit-content;
+            div label{
+                padding: 8px;
+                font-size: 15px;
+            }
+            div input{
+                font-size: 15px;
+            }
+            #boton{
+                left: 38%;
+                top: 695px;
+            }
+        }
+        
+    }
+
+    #footercontacto{
+        top: 175%;
+    }
+}

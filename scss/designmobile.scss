@@ -1,0 +1,30 @@
+@media only screen and (max-width: 600px){
+    .section1design{
+        h1{
+            font-size: 60px;
+            width: 400px;
+            left: 10%; 
+        } 
+        h2{
+            font-size: 30px;
+            top: 40%;
+        }
+        div .parrafo{
+            width: fit-content;
+            top: 60%;    
+        }
+    }
+    .section2design{
+        .video{
+            width: 450px;
+            height: 300px;
+            left: 4%;
+            top: 145%;
+        }
+    }
+    #footerdesign{
+        top: 185%;
+    }
+
+
+}

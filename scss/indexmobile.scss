@@ -1,0 +1,71 @@
+@media only screen and (max-width: 600px){
+    #menu{
+        z-index: 3;
+        
+    }
+    
+   .navbar-toggler-icon{
+    color: white;
+    position: relative;
+    left: 155px;
+   }
+   .titulo{
+    display: none;
+   }
+   .foto{
+    display: none;
+    
+   }
+   .fotoreducida{
+    position: static;
+    display: block;
+    width: 100%;
+
+    }
+    .designthinking{
+        font-size: 40px;
+        left: 23%;
+        top: 20%; 
+    }
+    .subtitulo{
+        font-size: 15px;
+        width: 79%;
+        left: 10%;
+        top: 40%;
+    }
+    .primerparrafo{
+        width: fit-content;
+    }
+    
+    .segundoparrafo{
+        width: fit-content;
+        position: relative;
+        top: 90%;
+    }
+    
+    .bombilla{
+        left: 18%;
+        top: 215%;
+    }
+    
+    .contactanos{
+        left: 13%;
+        top: 255%;
+        
+    }
+    
+    .footer{
+        top: 290%;
+    }
+    
+    .icon{
+        padding: 10px;
+    }
+    .tresiconos{
+        top: 7px;
+    }
+    
+
+}
+
+

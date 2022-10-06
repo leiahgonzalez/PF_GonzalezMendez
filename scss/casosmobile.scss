@@ -1,0 +1,42 @@
+@media only screen and (max-width: 600px){
+    .section1casos{
+        div h1{
+            font-size: 60px;
+            width: 400px;
+            left: 10%;
+        }
+        div h2{
+            font-size: 30px;
+            top: 40%;
+        }
+    }
+    .section2casos{
+        .applecontainer{
+            top: 55%;
+            width: fit-content;
+            left: 1%;
+            .appletexto{
+                font-size: 13px;
+            }
+        }
+        .airbnbcontainer{
+            top: 92%;
+            width: fit-content;
+            left: 1%;
+            .airbnbtexto{
+                font-size: 13px;
+            }
+        }
+        div iframe{
+            top: 132%;
+            width: 450px;
+            height: 300px;
+            
+            left: 2%;
+        }
+    
+    }
+    #footercasos{
+        top: 175%;
+    }
+}

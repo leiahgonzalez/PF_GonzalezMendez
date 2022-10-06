@@ -1,0 +1,35 @@
+@media only screen and (max-width: 600px){
+    .section1pasos{
+        div h1{
+            font-size: 60px;
+            width: 400px;
+            left: 10%;   
+        }
+        div h2{
+            font-size: 30px;
+            top: 40%;
+        }
+        div .parrafo{
+            width: fit-content;
+            top: 60%;
+        }
+        div .fotopasos{
+            left: 7%;
+            top: 127%;
+        }
+    }
+    .section2pasos{
+        div .parrafo2{
+            width: fit-content;
+            top: 155%;
+            left: 3%;
+        }
+        div .fotoguia{
+            top: 255%;
+            left: 4%;
+        }
+    }
+    #footerpasos{
+        top: 305%;
+    }
+}

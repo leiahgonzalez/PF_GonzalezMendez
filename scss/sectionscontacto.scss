@@ -1,0 +1,70 @@
+.section1contacto{
+    div h1{
+        font-family: 'Oswald', sans-serif;
+        color: #4C1130;
+        position: absolute;
+        font-size: 90px;
+        top: 22%;
+        left: 30%;
+    }
+    div h2{
+        background-color: #d5a6bd;
+        width: 52%;
+        padding: 10px;
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        position: absolute;
+        left: 5%;
+        top: 50%;
+    }
+}
+.section2contacto .container{
+    padding: 50px;
+    height: 900px;
+
+    .formulario{
+        border: #4C1130;
+        background-color: #C27BA0;
+        width: 700px;
+        height: 900px;
+        padding: 40px;
+        position: absolute;
+        left: 28%;
+        top: 65%;
+        text-align: start; 
+        
+        div label{
+            color: white;
+            padding: 10px;
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+        }
+        div input{
+            border-color: black;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            width: 100%;
+            font-size: 20px;
+        }
+        div select{
+            border-color: black;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            width: 100%;
+            font-size: 20px;
+        }
+        #boton{
+            color: white;
+            background-color: #4C1130;
+            width: 100px;
+            position: absolute;
+            left: 42%;
+            top: 820px;
+            &:hover{
+                background-color: black;
+                color: #d5a6bd;
+            }
+        }
+    }
+
+
+}
+

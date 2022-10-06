@@ -1,0 +1,35 @@
+.contactanos{
+    background-color: #20124D;
+    border-color: #A64D79;
+    border-width: 2px;
+    width: 350px;
+    height: 210px;
+    position: absolute;
+    left: 69%;
+    top: 140%;
+    
+}
+.contacto{
+    font-size: 30px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    width: 300px;
+    text-align: center;
+    justify-self: center;
+    position: absolute;
+    left: 25px;
+    top: -10px;
+    padding: 20px;
+
+}
+
+.button{
+    color: white;
+    background-color: #741B47;
+    position: absolute;
+    top: 75%;
+    left: 35%;
+    &:hover{
+        font-size: 17px;
+    }
+}

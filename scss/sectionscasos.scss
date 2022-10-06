@@ -1,0 +1,65 @@
+.section1casos{
+    div h1{
+        font-family: 'Oswald', sans-serif;
+        color: #4C1130;
+        position: absolute;
+        font-size: 90px;
+        top: 22%;
+        left: 30%;
+    }
+    div h2{
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        position: absolute;
+        left: 5%;
+        top: 50%;
+    }
+}
+
+.section2casos{
+    .applecontainer{
+        background-color: #EA9999;
+        width: 1300px;
+        position: absolute;
+        top: 65%;
+        left: 7%;
+        h3{
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;  
+        }
+        .appletexto{
+            font-size: 15px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+    }
+
+    .airbnbcontainer{
+        background-color: #EA9999;
+        width: 1300px;
+        position: absolute;
+        top: 95%;
+        left: 7%;
+        h3{
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+        .airbnbtexto{
+            font-size: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        }
+
+    }
+    div iframe{
+        position: absolute;
+        top: 120%;
+        left: 22%;
+        width: 800px;
+        height: 500px;
+        padding: 50px;
+    }
+
+}
