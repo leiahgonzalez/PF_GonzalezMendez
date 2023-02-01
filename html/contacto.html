@@ -33,7 +33,7 @@
                 <a class="nav-link" href="../html/design.html">Qué es</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../html/pasos.html">Pasos</a>
+                <a class="nav-link" href="../html/pasos.html">Cursos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="../html/casos.html">Casos Exitosos</a>
@@ -46,6 +46,13 @@
         </div>
       </nav>
 
+
+      <div class="nav-container">
+        <nav class="navbar">
+          <h1 class="ver-carrito" id="vercarrito">🛒</h1>
+        </nav>
+      </div>
+
     <section class="section1contacto">
         <div>
             <h1>DESIGN THINKING</h1>
@@ -57,46 +64,46 @@
     </section>
 
 
-    <section class="section2contacto">
-        <form class="container">
+    <section class="section2contacto" id="formulariosection">
+        <form class="container" id="formulariocontacto" name="formulario" method="get">
             <fieldset class="formulario">
                 <div>
                     <label for="nombre">Nombre:</label>
-                    <input type="text" class="nombre" name="nombre" placeholder="Ingrese Nombre"/>
+                    <input type="text" class="nombre" id="nombre" name="nombre" placeholder="Ingrese Nombre"/>
                 </div>
 
                 <br/>
 
                 <div>
                     <label for="apellido">Apellido:</label>
-                    <input type="text" class="apellido" name="apellido" placeholder="Ingrese Apellido"/>
+                    <input type="text" class="apellido" id="apellido" name="apellido" placeholder="Ingrese Apellido"/>
                 </div>
             
                 <br/>
            
                 <div>
                     <label for="fecha nacimiento"> Fecha de Nacimiento:</label>
-                    <input type="date" class="fechanac" name="fechanac"/>
+                    <input type="date" class="fechanac" id="fechanac" name="fechanac"/>
                 </div>
 
                 <br/>
             
                 <div>
                     <label for="email">Email:</label>
-                    <input type="text" class="email" name="email" placeholder="Ingrese Correo"/>
+                    <input type="text" class="email" id="email" name="email" placeholder="Ingrese Correo"/>
                 </div>
 
                 <br/>
 
                 <div>
                     <label for="telefono">Teléfono:</label>
-                    <input type="text" class="telefono" name="telefono" placeholder="Ingrese Teléfono"/>
+                    <input type="text" class="telefono" id="telefono" name="telefono" placeholder="Ingrese Teléfono"/>
                 </div>
 
                 <br/>
 
                 <div>
-                    <label for="size">Asunto:</label>
+                    <label for="size" id="adunto">Asunto:</label>
                     <select id="size" name="size">
                         <option value="Corporativas">Capacitaciones Corporativas</option>
                         <option value="Personal">Capacitaciones Personales</option>
@@ -109,11 +116,11 @@
 
                 <div>
                     <label for="consulta">Consulta:</label>
-                    <input type="text" class="texto" name="texto" placeholder="Ingrese Texto"/>
+                    <input type="text" class="texto" id="consulta" name="texto" placeholder="Ingrese Texto"/>
                 </div>
                 <br/>
                 <div>
-                    <input type="submit" value="Enviar" id="boton"/>
+                    <input type="submit" value="Enviar" name="submitbutton" id="botonformulario"/>
                 </div>
             </fieldset>
         </form>
@@ -135,8 +142,10 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
-    
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
    
-
+    <script src="../js/contacto.js"></script>
+    
 </body>
+
 </html>

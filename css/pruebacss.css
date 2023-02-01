@@ -117,12 +117,149 @@
 
 #footerdesign {
   top: 175%; }
-
+  
 #footerpasos {
-  top: 170%; }
+  top: 180%; }
 
 #footercontacto {
   top: 200%; }
+
+
+/* pasos */
+.cursosdisponibles{
+  position: absolute;
+  top: 500px;
+  left: 9%;
+  width: 80%;
+}
+#cursoindividual{
+  background-color: #e7aee7;
+  border-radius: 15px;
+  height: 290px;
+}
+
+div h4{
+  padding: 5px;
+  font-size: 30px;
+  position: relative;
+  left: 50px;
+}
+
+div iframe{
+  padding: 5px;
+  position: relative;
+  left: 100px;
+}
+
+div p{
+  font-size: 20px;
+  position: relative;
+  left: 42%;
+  width: 650px;
+  top: -200px;
+}
+
+div button{
+  position: relative;
+  top: -190px;
+  left: 59%;
+  color: white;
+  background-color: #4C1130;
+  font-size: 25px;
+
+}
+
+.cursoboton:hover{
+  font-size: 30px;
+  color: #A64D79;
+}
+
+#subtituloindex{
+  position: relative;
+  width: 890px;
+  left: 70px;
+  top: -30px;
+  font-size: 35px;
+}
+
+#botoncontacto{
+  left: 95px;
+}
+
+#carritologo{
+  position: absolute;
+  top: 40px;
+  left: 95%;
+
+}
+
+.imagencard{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 20%;
+  top: 30px;
+
+}
+
+.nombrecurso{
+  font-size: 30px;
+  position: relative;
+  top:50px;
+  left: 18%;
+}
+
+.price{
+  font-size: 50px;
+  background-color: #af7192;
+  width: 100px;
+  border-radius: 15px;
+  position: relative;
+  top: -60px;
+}
+
+.card button{
+  background-color: #20124D;
+  width: 170px;
+  border-radius: 15px;
+  font-size: 40px;
+  position: relative;
+  top: -145px;
+}
+
+
+#vercarrito{
+  position: relative;
+  top: -80px;
+  left: 1400px;
+}
+
+.modal-container{
+  width: 80%;
+  margin: 0 10%;
+  max-height: 88vh;
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  overflow: auto;
+  z-index: 9;
+  top: 9px;
+  scrollbar-color: none;
+
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+
 
 @media only screen and (max-width: 600px) {
   #menu {

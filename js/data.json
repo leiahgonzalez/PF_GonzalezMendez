@@ -1,0 +1,7 @@
+[
+    {"id": 1, "curso":"introduccion", "precio": "USD 10"},
+    {"id": 2, "curso":"innovacion", "precio": "USD 15"},
+    {"id": 3, "curso":"experiencia", "precio": "USD 20"},
+    {"id": 4, "curso":"tecnicas", "precio": "USD 25"}
+
+]
