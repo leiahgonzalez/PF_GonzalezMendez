@@ -1,7 +1,23 @@
-[
-    {"id": 1, "curso":"introduccion", "precio": "USD 10"},
-    {"id": 2, "curso":"innovacion", "precio": "USD 15"},
-    {"id": 3, "curso":"experiencia", "precio": "USD 20"},
-    {"id": 4, "curso":"tecnicas", "precio": "USD 25"}
 
+
+[{"id": 1, 
+"nombre":"CURSO DE INTRODUCCIÓN AL DESIGN THINKING ",
+"precio": 10,
+"img": "https://exelearning.net/html_manual/cursomaterialesfp/0_programa/ryanlerch_Book_and_Pen.png"
+},
+{"id": 2, 
+"nombre":"CURSO DE INNOVACIÓN EN LA EDUCACIÓN CON DESIGN THINKING",
+"precio": 15,
+"img": "https://thumbs.dreamstime.com/b/icono-de-la-combinaci%C3%B3n-innovaci%C3%B3n-y-revoluci%C3%B3n-mezcla-para-insurgencia-logo-159899318.jpg"
+},
+{"id": 3, 
+"nombre":"CURSO DE EXPERIENCIA DE CLIENTE CON DESIGN THINKING",
+"precio": 20,
+"img": "https://w7.pngwing.com/pngs/44/20/png-transparent-chapel-hill-academy-work-experience-computer-icons-intern-coin-miscellaneous-text-logo-thumbnail.png"
+},
+{"id": 4, 
+"nombre":"CURSO DE TÉCNICAS DE INNOVACIÓN PARA LA TOMA DE DECISIONES",
+"precio": 10,
+"img": "https://i.pinimg.com/originals/2b/a0/28/2ba028a01a44499fa19f0b4d9fc62bdf.png"
+}
 ]

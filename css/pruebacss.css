@@ -205,8 +205,8 @@ div button{
 .nombrecurso{
   font-size: 30px;
   position: relative;
-  top:50px;
-  left: 18%;
+  top:75px;
+  left: 5%;
 }
 
 .price{
@@ -216,6 +216,10 @@ div button{
   border-radius: 15px;
   position: relative;
   top: -60px;
+}
+.card button:hover{
+  background-color: #e19cbe;
+  
 }
 
 .card button{
