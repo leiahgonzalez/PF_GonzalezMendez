@@ -67,68 +67,66 @@
         </div>
     </section>
 
-
-    <section class="section2contacto" id="formulariosection">
-        <form class="container" id="formulariocontacto" name="formulario" method="get">
-            <fieldset class="formulario">
-                <div>
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" class="nombre" id="nombre" name="nombre" placeholder="Ingrese Nombre"/>
-                </div>
-
-                <br/>
-
-                <div>
-                    <label for="apellido">Apellido:</label>
-                    <input type="text" class="apellido" id="apellido" name="apellido" placeholder="Ingrese Apellido"/>
-                </div>
-            
-                <br/>
+<section class="section2contacto" id="formulariosection">
+    <form id="my-form" action="https://formspree.io/f/xknajojy" method="POST" class="formulario">
+      <div>
+        <label for="nombre">Nombre:</label>
+        <input type="text" class="nombre" id="nombre" name="nombre" placeholder="Ingrese Nombre"/>
+      </div>
+      <br>
+      <div>
+        <label for="apellido">Apellido:</label>
+        <input type="text" class="apellido" id="apellido" name="apellido" placeholder="Ingrese Apellido"/>
+      </div>
+      <br/>
            
-                <div>
-                    <label for="fecha nacimiento"> Fecha de Nacimiento:</label>
-                    <input type="date" class="fechanac" id="fechanac" name="fechanac"/>
-                </div>
+      <div>
+        <label for="fecha nacimiento"> Fecha de Nacimiento:</label>
+        <input type="date" class="fechanac" id="fechanac" name="fechanac"/>
+      </div>
 
-                <br/>
+      <br/>
             
-                <div>
-                    <label for="email">Email:</label>
-                    <input type="text" class="email" id="email" name="email" placeholder="Ingrese Correo"/>
-                </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="text" class="email" id="email" name="email" placeholder="Ingrese Correo"/>
+      </div>
 
-                <br/>
+      <br/>
 
-                <div>
-                    <label for="telefono">Teléfono:</label>
-                    <input type="text" class="telefono" id="telefono" name="telefono" placeholder="Ingrese Teléfono"/>
-                </div>
+      <div>
+        <label for="telefono">Teléfono:</label>
+        <input type="text" class="telefono" id="telefono" name="telefono" placeholder="Ingrese Teléfono"/>
+      </div>
 
-                <br/>
+      <br/>
 
-                <div>
-                    <label for="size" id="adunto">Asunto:</label>
-                    <select id="size" name="size">
-                        <option value="Corporativas">Capacitaciones Corporativas</option>
-                        <option value="Personal">Capacitaciones Personales</option>
-                        <option value="Otro">Otras Consultas</option>
+      <div>
+        <label for="size" id="adunto">Asunto:</label>
+        <select id="size" name="size">
+          <option value="Corporativas">Capacitaciones Corporativas</option>
+          <option value="Personal">Capacitaciones Personales</option>
+          <option value="Otro">Otras Consultas</option>
 
-                    </select>
-                </div>
+        </select>
+      </div>
             
-                <br/>
+      <br/>
 
-                <div>
-                    <label for="consulta">Consulta:</label>
-                    <input type="text" class="texto" id="consulta" name="texto" placeholder="Ingrese Texto"/>
-                </div>
-                <br/>
-                <div>
-                    <input type="submit" value="Enviar" name="submitbutton" id="botonformulario"/>
-                </div>
-            </fieldset>
-        </form>
+      <div>
+        <label for="consulta">Consulta:</label>
+        <input type="text" class="texto" id="consulta" name="texto" placeholder="Ingrese Texto"/>
+      </div>
+      <br/>
+     
+
+      <button id="my-form-button">Enviar</button>
+      <p id="my-form-status"></p>
+    </form>
     </section>
+
+
+   
 
     <footer class="footer" id="footercontacto">
         <div class="tresiconos">

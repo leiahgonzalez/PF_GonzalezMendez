@@ -533,7 +533,7 @@ div button{
 .section2contacto .container {
   padding: 50px;
   height: 900px; }
-  .section2contacto .container .formulario {
+  .section2contacto .formulario {
     border: #4C1130;
     background-color: #C27BA0;
     width: 700px;
@@ -542,32 +542,47 @@ div button{
     position: absolute;
     left: 28%;
     top: 65%;
-    text-align: start; }
-    .section2contacto .container .formulario div label {
+    text-align: start; 
+  border-radius: 15px;}
+    .section2contacto  .formulario div label {
       color: white;
       padding: 10px;
       font-size: 20px;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
-    .section2contacto .container .formulario div input {
+    .section2contacto .formulario div input {
       border-color: black;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       width: 100%;
       font-size: 20px; }
-    .section2contacto .container .formulario div select {
+    .section2contacto .formulario div select {
       border-color: black;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       width: 100%;
       font-size: 20px; }
-    .section2contacto .container .formulario #boton {
+    .section2contacto .formulario #boton {
       color: white;
       background-color: #4C1130;
       width: 100px;
       position: absolute;
       left: 42%;
       top: 820px; }
-      .section2contacto .container .formulario #boton:hover {
+      .section2contacto  .formulario #boton:hover {
         background-color: black;
         color: #d5a6bd; }
+
+    #my-form-button{
+      font-size: 25px;
+      color: white;
+      background-color: #4C1130;
+      width: 100px;
+      position: absolute;
+      left: 42%;
+      top: 820px;
+    }
+    #my-form-button:hover{
+      background-color: black;
+        color: #d5a6bd;
+    }
 
 @media only screen and (max-width: 600px) {
   .section1contacto div h1 {
